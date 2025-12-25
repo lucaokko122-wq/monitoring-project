@@ -1,0 +1,37 @@
+﻿# Vagrant
+.vagrant/
+
+# VirtualBox
+*.vdi
+*.vbox
+*.vbox-prev
+
+# Ansible
+*.retry
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+
+# Node.js
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Sensitive
+*.pem
+*.key
+*.secret
+*.env
